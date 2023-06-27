@@ -148,7 +148,9 @@ img {
     align-items: center;
     
   }
-
+.logo-part{
+  margin-right: 120px;
+}
   .nav-item {
     position: relative;
     padding-top: 24px;
@@ -190,7 +192,9 @@ img {
   .list-item:not(:last-child) {
     margin-right: 40px;
   }
-
+.address{
+  margin-left: auto; 
+}
   .address.link {
     font-size: 12px;
     font-style: normal;
@@ -201,7 +205,7 @@ img {
   }
 
   .address-item:first-child {
-    margin-bottom: 12px;
+    /* margin-bottom: 12px; */
   }
 
   .address.link:hover,
@@ -224,9 +228,9 @@ img {
     margin-left: auto;
   }
 
-  /* .address-item:not(:last-child) {
+   .address-item:not(:last-child) {
     margin-right: 40px;
-  } */
+  } 
 
   .address.link {
     font-style: normal;
@@ -456,7 +460,7 @@ color: var(--text-color)
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/main/hero-desktop@1x.jpeg);
-    height: 600px;
+    
     max-width: 1440px;
     margin: 0 auto;
     margin: 0 auto;
@@ -747,7 +751,9 @@ color: var(--text-color)
   /* justify-content: center; */
   gap: 24px;
 }
-
+.mob-soc-link{
+  gap: 56px;
+}
 .social-links-item {
   width: 40px;
   height: 40px;
@@ -901,7 +907,7 @@ color: var(--text-color)
   .footer-container {
     flex-direction: column;
     align-items: center;
-    /* gap: 74px; */
+    gap: 74px;  
   }
 
   .footer-section-1 {
@@ -948,7 +954,7 @@ color: var(--text-color)
   padding-left: 16px;
   padding-top: 8px;
   padding-bottom: 8px;
-  /* margin-bottom: 16px; */
+   /* margin-bottom: 16px;  */
 
   font-size: 12px;
   line-height: 2;
@@ -972,7 +978,7 @@ color: var(--text-color)
 
   padding: 8px 24px;
   margin: 0 auto;
-
+margin-top: 16px;
   min-width: 165px;
   height: 40px;
 
@@ -1009,12 +1015,14 @@ color: var(--text-color)
   .footer-container {
     flex-wrap: wrap;
     row-gap: 72px;
-    column-gap: 24px;
+     column-gap: 24px; 
   }
-
+.subscribe-label{
+  margin-right: 24px
+}
   .email-input {
     width: 264px;
-    margin-right: 24px;
+    /* margin-right: 24px; */
   }
 
   .subscribe-field {
@@ -1035,6 +1043,7 @@ color: var(--text-color)
   .footer-container {
     flex-wrap: nowrap;
     align-items: baseline;
+    gap: 0;
   }
 
   .footer-section-1 {
